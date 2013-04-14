@@ -1,0 +1,17 @@
+"GenericOK" = "OK";
+
+"ReplaceTitle" = "Confirm Replace";
+"ReplaceOK" = "Replace";
+"ReplaceCancel" = "Cancel";
+"ConfirmReplace" = "A widget named \"%@\" already exists in this location.  Do you want to replace it?";
+
+"UpdateCheck" = "Check for Updates...";
+"UpdateYes" = "A new version of Amnesty Generator is available.";
+"UpdateNo" = "Your version of Amnesty Generator is up to date.  There are no updates available at this time.";
+"UpdateDownload" = "Go to Download Page";
+
+"MoreWidgets" = "More widget libraries:";
+"MoreObjects" = "More custom widgets:";
+"MoreVideo" = "More video widgets:";
+
+"Disclaimer" = "site requires registration";

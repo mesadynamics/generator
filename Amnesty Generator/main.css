@@ -1,0 +1,55 @@
+body {
+	border: 0px;
+	font: normal 13px Arial,sans-serif;
+}
+
+table {
+	display: block;
+	position: relative;
+	padding-left:0px;
+	right:10px;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+
+#title {
+	position: relative;
+	border: 1px solid #666666;
+	background: #eeeeee;
+	valign: top;
+}
+
+#titletext
+{
+	font: bold 12px Arial,sans-serif;
+	text-align:center;
+	color: #000000;
+}
+
+#entry {
+	font: normal 12px Arial,sans-serif;
+	padding-left:2px;
+	padding-top:10px;
+}
+
+#header {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	padding: 2px;
+}
+
+#logo {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#help {
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 15px;
+}

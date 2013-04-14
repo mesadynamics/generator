@@ -1,0 +1,17 @@
+"GenericOK" = "OK";
+
+"ReplaceTitle" = "Bekræft erstat";
+"ReplaceOK" = "Erstat";
+"ReplaceCancel" = "Annuller";
+"ConfirmReplace" = "Der findes allerede en widget \"%@\" på dette sted. Vil du erstatte den?";
+
+"UpdateCheck" = "Se efter opdateringer…";
+"UpdateYes" = "Der er en ny version af Amnesty Generator klar.";
+"UpdateNo" = "Din version af Amnesty Generator er opdateret. Der er ingen nye versioner tilgængelige nu.";
+"UpdateDownload" = "Gå til download-side";
+
+"MoreWidgets" = "Bibliotek med flere widgeter:";
+"MoreObjects" = "Flere personlige widgeter:";
+"MoreVideo" = "Flere videowidgeter:";
+
+"Disclaimer" = "side kræver registrering";

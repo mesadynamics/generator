@@ -1,0 +1,11 @@
+"GenericOK" = "OK";
+
+"ReplaceTitle" = "置き換えの確認";
+"ReplaceOK" = "置き換える";
+"ReplaceCancel" = "キャンセル";
+"ConfirmReplace" = "この場所に\"%@\"という名前のウィジェットがすでに存在しています。置き換えますか？";
+
+"UpdateCheck" = "アップデータの有無を確認...";
+"UpdateYes" = "お使いのAmnesty Generatorより新しいバージョンが入手可能です。";
+"UpdateNo" = "お使いのAmnesty Generatorは最新です。今のところ、アップデータはありません。";
+"UpdateDownload" = "ダウンロードページを開く";

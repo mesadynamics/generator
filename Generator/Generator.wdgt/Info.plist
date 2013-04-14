@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowFullAccess</key>
+	<true/>
+	<key>CFBundleShortVersionString</key>
+	<string>1.5 Amnesty Generator</string>
+	<key>CFBundleVersion</key>
+	<string>1.5</string>
+	<key>CloseBoxInsetX</key>
+	<integer>3</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>3</integer>
+	<key>DefaultImage</key>
+	<string>default</string>
+	<key>MainHTML</key>
+	<string>generator.htm</string>
+	<key>Plugin</key>
+	<string>Generator.widgetplugin</string>
+</dict>
+</plist>

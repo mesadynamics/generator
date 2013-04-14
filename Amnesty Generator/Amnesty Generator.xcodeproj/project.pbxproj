@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3004EA730B2F313000B52892 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3004EA720B2F313000B52892 /* Icon.png */; };
+		301366050AD455F0006B7D24 /* AmnestyGenerator.icns in Resources */ = {isa = PBXBuildFile; fileRef = 301366040AD455F0006B7D24 /* AmnestyGenerator.icns */; };
+		3013660A0AD4564C006B7D24 /* SplashGenerator.png in Resources */ = {isa = PBXBuildFile; fileRef = 301366090AD4564C006B7D24 /* SplashGenerator.png */; };
+		3013661D0AD45DB6006B7D24 /* GeneratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3013661C0AD45DB6006B7D24 /* GeneratorController.m */; };
+		3023A7240AD49C4B002C946D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3023A7220AD49C4B002C946D /* Localizable.strings */; };
+		306349360AD4709E000A7B10 /* GeneratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 306349350AD4709E000A7B10 /* GeneratorView.m */; };
+		308B077B0B278B9000F37BB0 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 308B077A0B278B9000F37BB0 /* main.css */; };
+		308B077E0B278B9900F37BB0 /* help.htm in Resources */ = {isa = PBXBuildFile; fileRef = 308B077C0B278B9900F37BB0 /* help.htm */; };
+		3097C2620EDB571700F184A8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3097C2610EDB571700F184A8 /* WebKit.framework */; };
+		30E76336171B52BF009D8F4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30E76335171B52BF009D8F4E /* InfoPlist.strings */; };
+		30E76338171B6B22009D8F4E /* Generator.wdgt in Resources */ = {isa = PBXBuildFile; fileRef = 30E76337171B6B22009D8F4E /* Generator.wdgt */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3004EA720B2F313000B52892 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		301366040AD455F0006B7D24 /* AmnestyGenerator.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AmnestyGenerator.icns; path = "../Runtime Images/AmnestyGenerator.icns"; sourceTree = SOURCE_ROOT; };
+		301366090AD4564C006B7D24 /* SplashGenerator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SplashGenerator.png; path = "../Runtime Images/SplashGenerator.png"; sourceTree = SOURCE_ROOT; };
+		3013661B0AD45DB6006B7D24 /* GeneratorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorController.h; sourceTree = "<group>"; };
+		3013661C0AD45DB6006B7D24 /* GeneratorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorController.m; sourceTree = "<group>"; };
+		3023A7230AD49C4B002C946D /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3034A4B00B5592C20000CB7B /* French */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = French; path = French.lproj/help.htm; sourceTree = "<group>"; };
+		3034A4B10B5592C80000CB7B /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Danish; path = Danish.lproj/help.htm; sourceTree = "<group>"; };
+		305B9F960B1B5B0C0020930B /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Danish; path = Danish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		305B9FB50B1B5B4E0020930B /* Danish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Danish; path = Danish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		306349340AD4709E000A7B10 /* GeneratorView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GeneratorView.h; sourceTree = "<group>"; };
+		306349350AD4709E000A7B10 /* GeneratorView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GeneratorView.m; sourceTree = "<group>"; };
+		307787CB0B4C69A000292A4A /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		308B077A0B278B9000F37BB0 /* main.css */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = main.css; sourceTree = "<group>"; };
+		308B077D0B278B9900F37BB0 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = English.lproj/help.htm; sourceTree = "<group>"; };
+		30957D2D0E1C32F700A93A4A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3097C2610EDB571700F184A8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		30E76335171B52BF009D8F4E /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		30E76337171B6B22009D8F4E /* Generator.wdgt */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Generator.wdgt; path = ../Generator/Generator.wdgt; sourceTree = "<group>"; };
+		30E9F1350ADAE063004A74B6 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30E9F1360ADAE066004A74B6 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30E9F1370ADAE06A004A74B6 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30E9F1420ADAE084004A74B6 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Amnesty Generator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amnesty Generator_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Amnesty Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amnesty Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3097C2620EDB571700F184A8 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3013661B0AD45DB6006B7D24 /* GeneratorController.h */,
+				3013661C0AD45DB6006B7D24 /* GeneratorController.m */,
+				306349340AD4709E000A7B10 /* GeneratorView.h */,
+				306349350AD4709E000A7B10 /* GeneratorView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3097C2610EDB571700F184A8 /* WebKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Amnesty Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Amnesty Generator */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Amnesty Generator";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Amnesty Generator_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30E76337171B6B22009D8F4E /* Generator.wdgt */,
+				308B077A0B278B9000F37BB0 /* main.css */,
+				301366040AD455F0006B7D24 /* AmnestyGenerator.icns */,
+				3004EA720B2F313000B52892 /* Icon.png */,
+				301366090AD4564C006B7D24 /* SplashGenerator.png */,
+				30E76335171B52BF009D8F4E /* InfoPlist.strings */,
+				3023A7220AD49C4B002C946D /* Localizable.strings */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				308B077C0B278B9900F37BB0 /* help.htm */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Amnesty Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Amnesty Generator" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amnesty Generator";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Amnesty Generator";
+			productReference = 8D1107320486CEB800E47090 /* Amnesty Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Amnesty Generator" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_TW,
+				Danish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Amnesty Generator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Amnesty Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				301366050AD455F0006B7D24 /* AmnestyGenerator.icns in Resources */,
+				3013660A0AD4564C006B7D24 /* SplashGenerator.png in Resources */,
+				3023A7240AD49C4B002C946D /* Localizable.strings in Resources */,
+				308B077B0B278B9000F37BB0 /* main.css in Resources */,
+				308B077E0B278B9900F37BB0 /* help.htm in Resources */,
+				3004EA730B2F313000B52892 /* Icon.png in Resources */,
+				30E76336171B52BF009D8F4E /* InfoPlist.strings in Resources */,
+				30E76338171B6B22009D8F4E /* Generator.wdgt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				3013661D0AD45DB6006B7D24 /* GeneratorController.m in Sources */,
+				306349360AD4709E000A7B10 /* GeneratorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				30E9F1420ADAE084004A74B6 /* French */,
+				305B9FB50B1B5B4E0020930B /* Danish */,
+				307787CB0B4C69A000292A4A /* German */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		3023A7220AD49C4B002C946D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3023A7230AD49C4B002C946D /* English */,
+				30E9F1350ADAE063004A74B6 /* French */,
+				30E9F1360ADAE066004A74B6 /* Japanese */,
+				30E9F1370ADAE06A004A74B6 /* zh_TW */,
+				305B9F960B1B5B0C0020930B /* Danish */,
+				30957D2D0E1C32F700A93A4A /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		308B077C0B278B9900F37BB0 /* help.htm */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308B077D0B278B9900F37BB0 /* English */,
+				3034A4B00B5592C20000CB7B /* French */,
+				3034A4B10B5592C80000CB7B /* Danish */,
+			);
+			name = help.htm;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "Amnesty Generator";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = "Amnesty Generator";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Amnesty Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Amnesty Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

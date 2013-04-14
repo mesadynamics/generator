@@ -1,0 +1,12 @@
+body {
+	margin: 0px;
+	background-image: url(front.png);
+}
+
+embed, object {
+	-apple-dashboard-region: dashboard-region(control rectangle 0px 0px 0px 0px);
+}
+
+#gadget {
+	-apple-dashboard-region: none;
+}
